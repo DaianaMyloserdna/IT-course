@@ -1,0 +1,236 @@
+
+*{ margin: 0;
+padding: 0;}
+
+body{ background-image: url(background-destination-desktop.jpg) ;
+background-repeat:no-repeat;
+font-family:  'Playpen Sans', cursive;
+background-size: cover;
+display: flex;
+flex-direction: column;
+color: #fff;
+
+}
+header{
+
+    display: flex;
+    list-style-type: none;
+    top: 0;
+    right: 0;
+    margin-top: 3.5%;
+}
+header a{ text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        color: aliceblue;
+
+      
+}
+header li{ float: left;
+display: inline;
+padding: 30px;
+}
+
+.nav{ display: flex;
+justify-content: center;
+width: 900px;}
+.blur{width: 900px;
+    height: 90px;
+    background-color: rgba(255,255,255, 0.04);
+    backdrop-filter: blur(1010.774227142333984px);
+    margin: 1.5%;
+    margin-right: 3.5%;
+}
+.logo{ width: 200px;
+margin-top: 3%;
+margin-left: 5.4%;
+z-index: 2;
+display: flex;
+justify-content: flex-start;
+
+}
+.line{
+    display: flex;
+    justify-content: flex-start;
+    background-color:grey;
+    color:grey;
+    width: 800px;
+    height: 2px;
+    margin-top: 4.5%;
+    z-index: 2;
+
+}
+.home{ height: 25px;}
+.home:hover{ border-bottom: 3px solid white;
+}
+.destination{ height: 25px;}
+.destination:hover{ border-bottom: 3px solid white;}
+.crew{ height: 25px;}
+.crew:hover{ border-bottom: 3px solid white;}
+.technology{ height: 25px}
+.technology:hover{ border-bottom: 3px solid white;}
+.nav li:hover{ border-bottom: 3px solid white;}
+
+
+main{ display: flex;
+flex-direction: row;}
+
+.picture{
+    display: flex;
+    margin-top: 20%;
+    margin-left: 35%;
+    width: 500px;
+    height: 440px;
+    animation: rotate 20s linear infinite;
+    justify-content: flex-start;}
+    @keyframes rotate{ 
+        from { transform: rotate(0deg);}
+        to{ transform: rotate(360deg);}
+    }
+    main{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;}
+.nr{ color: grey;}
+h5{
+    text-transform: uppercase;
+    font-size: larger;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.second.nav{ 
+    list-style-type: none;
+    display: flex;
+    
+}
+.right li{ list-style-type: none;
+display: inline;
+padding: 2%;
+}
+
+.right a {text-decoration: none;
+    color: #d0d6f9;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+.moon{ height: 35px;}
+.moon:hover{ border-bottom: 3px solid white;}
+.mars{ height: 35px;}
+.mars:hover{ border-bottom: 3px solid white;}
+.europa{ height: 35px;}
+.europa:hover{ border-bottom: 3px solid white;}
+.titan { height: 35px;}
+.titan:hover{ border-bottom: 3px solid white;}
+.rightside {margin-top: 10%;
+margin-left: 26%;
+}
+.h1{ text-align: center;
+    text-transform: uppercase;
+       color:#FFFFFF;
+    letter-spacing: 10px;
+    font-size: 100px;
+    margin-right: 20%;} 
+
+
+    .sometext{ color: #d0d6f9;
+        display: flex;
+        font-size: 19px;
+        padding-top: 3%;
+        width: 60%;
+        margin-left: 25%;}
+
+
+    
+ 
+
+        .hr-destination{width: 700px;
+            margin-top: 38px;
+            margin-left: 25%;
+            color: #383b4b;
+            background-color: #383b4b;
+            height: 1px;
+            border-width: 0;}
+
+            .footer{
+                display: flex;
+                margin-left: 25%;
+                
+            }
+            .footer p{ width: 200px;
+            color: #d0d6f9;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 2.362px;
+            text-transform: uppercase;
+            margin-top: 9%;
+            
+            
+            }
+            .footer span{ 
+            color: #FFFFFF;
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: uppercase;
+            }           
+
+            @media(max-width: 768px){
+
+                body{ background-image: url(background-destination-tablet.jpg) ;
+                    background-size: cover;}
+                    .line{ display: none;}
+             
+                .blur{  width: 550px;
+                   height: 50px;
+                margin-top: -20px;   
+         }
+         .nav{ display: flex;
+        justify-content: flex-start;
+    font-size: 30px;}
+            header a{ font-size: 7px;
+                
+            padding: 0px;}
+        .nav li{ padding: 25px;
+                font-size: 10px;
+            justify-content: center;
+        margin-top:-10px ;
+    }
+        .nav a{ font-size: 7.5px;}
+           .logo{
+            margin-top: -18px;
+            margin-left: 3%;}
+
+            .nav{width:400px;
+                
+            }
+
+            
+                h5{ font-size: 15px;
+                margin-left: 0px;
+             margin-right: 3px;
+             padding-left:6%;
+          padding-top: 25px;}
+             .picture{ margin-top: 10%;
+                margin-left: 80%;
+                width: 250px;
+                height: 250px;}
+main{ display: flex;
+flex-direction: column;}
+.rightside li{ font-size: 8px;
+    padding: 1%;
+}
+.right{ margin-top: -60px;
+margin-left: -120px;}
+.h1 { font-size: 30px;
+    margin-left: -50px;
+}
+.sometext{ font-size: 9px;
+    
+}
+
+
+
+
+
+
+}
+
