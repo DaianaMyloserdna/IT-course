@@ -179,18 +179,18 @@ margin-left: 26%;
                     background-size: cover;}
                     .line{ display: none;}
              
-                .blur{  width: 550px;
-                   height: 50px;
+                .blur{  width: 500px;
+                   height: 100px;
                 margin-top: -20px;   
          }
          .nav{ display: flex;
         justify-content: flex-start;
     font-size: 30px;}
-            header a{ font-size: 7px;
+            header a{ font-size: 10px;
                 
             padding: 0px;}
         .nav li{ padding: 25px;
-                font-size: 10px;
+                font-size: 30px;
             justify-content: center;
         margin-top:-10px ;
     }
@@ -208,27 +208,32 @@ margin-left: 26%;
                 margin-left: 0px;
              margin-right: 3px;
              padding-left:6%;
-          padding-top: 25px;}
-             .picture{ margin-top: 10%;
-                margin-left: 80%;
+          padding-top: 0px;}
+             .picture{ margin-top: 20%;
+                margin-left: 100%;
                 width: 250px;
                 height: 250px;}
 main{ display: flex;
 flex-direction: column;}
-.rightside li{ font-size: 8px;
-    padding: 1%;
+.rightside li{ font-size: 15px;
+    padding: 2%;
 }
-.right{ margin-top: -60px;
-margin-left: -120px;}
-.h1 { font-size: 30px;
-    margin-left: -50px;
+.right{ margin-top: -30px;
+margin-right: -90px;}
+.h1 { font-size: 50px;
+    margin-left: 70px;
 }
-.sometext{ font-size: 9px;
+.sometext{ font-size: 13px;
+    text-align: center;
+    margin-left: 15%;
     
 }
 
 
-
+.hr-destination{
+    width: 500px;
+    margin-left: 15%;
+}
 
 
 
