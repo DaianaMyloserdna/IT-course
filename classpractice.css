@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+.top{ display: flex;
+gap: 30px;}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 15px;
+}
+.navbar {
+  list-style-type: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(106, 98, 98);
+}
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+.navbar li {
+}
+.top {
+  display: flex;
+}
+.hero-content {
+  display: flex;
+  flex-direction: row;
+}
+.hero-title {
+  font-size: 35px;
+  text-align: left;
+  max-width: 250px;
+}
+.hero-description {
+  font-size: 15px;
+  text-align: left;
+  color: rgb(106, 98, 98);
+  max-width: 400px;
+}
+.hero-button {
+  background-color: rgb(231, 114, 114);
+  border: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+.hero-information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.card-description {
+  display: flex;
+  flex-direction: column;
+}
+.blog{
+    max-width: 300px;
+    background-color: rgb(3, 3, 77);
+    color: aliceblue;
+}
+.blog li{
+    list-style-type: none;
+}
+.blog-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}

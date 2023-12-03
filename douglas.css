@@ -1,183 +1,225 @@
-*{padding: 0;
-margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{ background-image: url(background-crew-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    font-family:  'Playpen Sans', cursive;
-    color: #fff;}
-    header{
-    
-        display: flex;
-        list-style-type: none;
-        top: 0;
-        right: 0;
-        margin-top: 3.5%;
-    }
-    header a{ text-decoration: none;
-            color: #fff;
-            text-transform: uppercase;
-            color: aliceblue;
-    
-          
-    }
-    header li{ float: left;
-    display: inline;
-    padding: 30px;
-    }
-    
-    .nav{ display: flex;
-    justify-content: center;
-    width: 900px;}
-    .blur{width: 900px;
-        height: 90px;
-        background-color: rgba(255,255,255, 0.04);
-        backdrop-filter: blur(1010.774227142333984px);
-        margin: 1.5%;
-        margin-right: 3.5%;
-    }
-    .logo{ width: 200px;
-    margin-top: 3%;
-    margin-left: 5.4%;
-    z-index: 2;
-    display: flex;
-    justify-content: flex-start;
-    
-    }
-    .line{
-        display: flex;
-        justify-content: flex-start;
-        background-color:grey;
-        color:grey;
-        width: 800px;
-        height: 2px;
-        margin-top: 4.5%;
-        z-index: 2;
-    
-    }
-    .home{ height: 25px;}
-    .home:hover{ border-bottom: 3px solid white;
-    }
-    .destination{ height: 25px;}
-    .destination:hover{ border-bottom: 3px solid white;}
-    .crew{ height: 25px;}
-    .crew:hover{ border-bottom: 3px solid white;}
-    .technology{ height: 25px}
-    .technology:hover{ border-bottom: 3px solid white;}
-    .nav li:hover{ border-bottom: 3px solid white;}
-main{display: flex;
-flex-direction: row;
-align-items: flex-start;}
-
-.nr{ color: grey;}
-h5{text-transform: uppercase;
-    font-size: larger;
-    margin-left: 20%;
-    margin-top: 5%; 
-letter-spacing: 3px;}
-
-h3{ color: grey;
-letter-spacing: 1px;
-font-size: 20px;
-margin-left: 20%;
-margin-top: 15%; }
-
-h1{font-size: 35px;
-margin-left: 20%;
-margin-top: 1%;
-letter-spacing: 2px;}
-
-.sometext{ color: #d0d6f9; 
-    display: flex;
-    font-size: 19px;
-    padding-top: 3%;
-    width: 60%;
-    margin-left: 20%;
+body {
+  background-image: url(background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "Playpen Sans", cursive;
+  color: #fff;
 }
-.navlist{ 
-list-style-type: none;
-display: flex;
-margin-top: 10%;
-margin-left: 18.6%}
-.navlist li{ 
-    list-style-type: none;
-    display: inline;
-    padding: 1%;
+header {
+  display: flex;
+  list-style-type: none;
+  top: 0;
+  right: 0;
+  margin-top: 3.5%;
 }
-.navlist a{ 
-    text-decoration: none;
-    color: grey;
-   font-size: 90px;
+header a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 30px;
+}
 
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+.blur {
+  width: 900px;
+  height: 90px;
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(1010.774227142333984px);
+  margin: 1.5%;
+  margin-right: 3.5%;
+}
+.logo {
+  width: 200px;
+  margin-top: 3%;
+  margin-left: 5.4%;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+.line {
+  display: flex;
+  justify-content: flex-start;
+  background-color: grey;
+  color: grey;
+  width: 800px;
+  height: 2px;
+  margin-top: 4.5%;
+  z-index: 2;
+}
+.home {
+  height: 25px;
+}
+.home:hover {
+  border-bottom: 3px solid white;
+}
+.destination {
+  height: 25px;
+}
+.destination:hover {
+  border-bottom: 3px solid white;
+}
+.crew {
+  height: 25px;
+}
+.crew:hover {
+  border-bottom: 3px solid white;
+}
+.technology {
+  height: 25px;
+}
+.technology:hover {
+  border-bottom: 3px solid white;
+}
+.nav li:hover {
+  border-bottom: 3px solid white;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.nr {
+  color: grey;
+}
+h5 {
+  text-transform: uppercase;
+  font-size: larger;
+  margin-left: 20%;
+  margin-top: 5%;
+  letter-spacing: 3px;
+}
+
+h3 {
+  color: grey;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 35px;
+  margin-left: 20%;
+  margin-top: 1%;
+  letter-spacing: 2px;
+}
+
+.sometext {
+  color: #d0d6f9;
+  display: flex;
+  font-size: 19px;
+  padding-top: 3%;
+  width: 60%;
+  margin-left: 20%;
+}
+.navlist {
+  list-style-type: none;
+  display: flex;
+  margin-top: 10%;
+  margin-left: 18.6%;
+}
+.navlist li {
+  list-style-type: none;
+  display: inline;
+  padding: 1%;
+}
+.navlist a {
+  text-decoration: none;
+  color: grey;
+  font-size: 90px;
 }
 li:hover a {
-    color: white;
+  color: white;
 }
 
+.picture {
+  margin-right: 10%;
+  margin-top: 2.5%;
+}
 
-.picture{ margin-right: 10%;
-margin-top: 2.5%;}    
+@media (max-width: 768px) {
+  body {
+    display: flex;
+  }
+  .line {
+    display: none;
+  }
 
-@media(max-width: 768px){
-   
- .line{ display: none;}
-             
-                .blur{  width: 500px;
-                   height: 100px;
-                margin-top: -20px;  
-      
-         }
-         .nav{ display: flex;
-        justify-content: flex-start;
-    font-size: 30px;}
-            header a{ font-size: 10px;
-                
-            padding: 0px;}
-        .nav li{ padding: 25px;
-                font-size: 30px;
-            justify-content: center;
-        margin-top:-10px ;
-    }
-        .nav a{ font-size: 7.5px;}
-           .logo{
-            margin-top: -18px;
-            margin-left: 3%;}
+  .blur {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: -2%;
+  }
+  .nav a {
+    font-size: 15px;
+  }
+  
+  header a {
+    font-size: 10px;
 
-            .nav{width:400px;
-                
-            }
+    padding: 0px;
+  }
+  
+  .logo {
+    margin-top: -18px;
+    margin-left: 3%;
+  }
 
-            
-                h5{ font-size: 15px;
-                margin-left: 0px;
-             margin-right: 3px;
-             padding-left:6%;
-          padding-top: 0px;}
-          h3{ margin-top: 5%;
-        margin-left: 37%;
-    font-size: 25px;}
-.h1{display: flex;
+
+
+  h5 {
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 6%;
+    padding-top: 0px;
+  }
+  h3 {
+    margin-top: 5%;
+    margin-left: 37%;
+    font-size: 25px;
+  }
+  .h1 {
+    display: flex;
     justify-content: center;
     margin-right: 21%;
     font-size: 45px;
-}
-             .picture{ margin-top: -30%;
-            margin-left: 15% ;
-        z-index: -1;}
-main{ display: flex;
-flex-direction: column;}
-.sometext{ font-size: 15px;
+  }
+  .picture {
+    margin-top: -30%;
+    margin-left: 15%;
+    z-index: -1;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .sometext {
+    font-size: 15px;
     text-align: center;
     margin-left: 20%;
-    
-}
-.navlist{
+  }
+  .navlist {
     display: flex;
     justify-content: center;
-   margin-left: 3%;
-   margin-top: -8%;
-}
-
+    margin-left: 3%;
+    margin-top: -8%;
+  }
 }
