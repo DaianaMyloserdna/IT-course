@@ -12,7 +12,9 @@ body {
   padding: 0;
   position: relative;
 }
-
+.hamburger-button {
+  display: none;
+}
 .navbarcontainer {
   display: flex;
   justify-content: flex-end;
