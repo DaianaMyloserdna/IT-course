@@ -217,6 +217,10 @@ h1 {
     justify-content: center;
     gap: 10px;
   }
+  .nav1 li {
+    width: 35px;
+    height: 35px;
+  }
   .center {
     display: flex;
     align-items: center;
@@ -224,12 +228,21 @@ h1 {
     margin-top: 0;
   }
   .h1 {
-    font-size: 20px;
+    font-size: 40px;
+    margin: 0;
   }
   .sometext {
-    font-size: 10px;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+padding-top: 5px;
   }
   .h3 {
-    display: flex;
+
   }
+ 
 }
