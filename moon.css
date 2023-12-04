@@ -290,3 +290,83 @@ h5 {
     margin-left: 15%;
   }
 }
+@media (max-width: 425px) {
+  body {
+    background-image: url(background-destination-mobile.jpg);
+    margin: 0;
+    padding: 0;
+  }
+  .hamburger-button {
+    background-color: transparent;
+    border: none;
+    color: #d0d6f9;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 105px;
+  }
+  .blur {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  .hamburger-button {
+    background-color: transparent;
+    border: none;
+    color: #d0d6f9;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+  }
+  .picture {
+    display: flex;
+    margin-left: 70px;
+  }
+  main {
+    display: flex;
+  }
+  h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+  }
+  .h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .rightside {
+    margin-left: 40px;
+  }
+  .sometext {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  .second.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hr-destination {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 0;
+  }
+  p {
+    font-size: 10px;
+    margin-top: -5px;
+  }
+}
