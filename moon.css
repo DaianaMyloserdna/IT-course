@@ -300,6 +300,7 @@ h5 {
     background-image: url(background-destination-mobile.jpg);
     margin: 0;
     padding: 0;
+    height: 847px;
   }
   .hamburger-button {
     background-color: transparent;

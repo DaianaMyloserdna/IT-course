@@ -34,7 +34,9 @@ header li {
   justify-content: center;
   width: 900px;
 }
-
+.hamburger-button {
+  display: none;
+}
 .blur {
   width: 900px;
   height: 90px;
@@ -100,7 +102,7 @@ main {
 h5 {
   color: #fff;
   text-transform: uppercase;
-  font-size: larger;
+  font-size: 20px;
   margin-left: 18%;
   margin-top: 5%;
   letter-spacing: 3px;
@@ -173,7 +175,9 @@ h1 {
     background-image: url(background-technology-tablet.jpg);
     display: flex;
   }
-
+  .hamburger-button {
+    display: none;
+  }
   .blur {
     width: 500px;
     display: flex;
@@ -239,10 +243,71 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0;
-padding-top: 5px;
+    padding-top: 5px;
   }
-  .h3 {
-
+}
+@media (max-width: 425px) {
+  body {
+    background-image: url(background-technology-mobile.jpg);
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 847px;
   }
+  .hamburger-button {
+    background-color: transparent;
+    border: none;
+    color: #d0d6f9;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 105px;
+  }
+  .blur {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  .hamburger-button {
+    background-color: transparent;
+    border: none;
+    color: #d0d6f9;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+  }
+  .picture-tablet-phone {
+    width: 900px;
+    height: 200px;
+  }
+  h5 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 10%;
+  }
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .h1 {
+    font-size: 25px;
+  }
+  .sometext {
+    text-align: center;
+    display: flex;
+    width: 400px;
  
+  }
+  .center{display: flex;
+  gap: 15px;
+  }
 }
