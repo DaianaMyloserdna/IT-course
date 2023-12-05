@@ -300,7 +300,8 @@ h5 {
     background-image: url(background-destination-mobile.jpg);
     margin: 0;
     padding: 0;
-    height: 847px;
+    height: 847px
+    ;
   }
   .hamburger-button {
     background-color: transparent;
@@ -357,6 +358,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   .hr-destination {
     width: 320px;
